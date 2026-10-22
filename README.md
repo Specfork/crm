@@ -4,9 +4,9 @@ name: "@spechub/crm"
 summary: Customizable CRM with companies, people, deals, custom objects, views, notes, tasks, import, workflows and mail sync.
 license: CC-BY-4.0
 requires:
-  "@spechub/auth": "^0.1"
-  "@spechub/teams": "^0.1"
-  "@spechub/webhooks": "^0.1"
+  "@spechub/auth": "^0.1.1"
+  "@spechub/teams": "^0.1.1"
+  "@spechub/webhooks": "^0.1.1"
 derived_from:
   repo: https://github.com/twentyhq/twenty
   commit: 9044bdd7d2ac023e973b292a3b883fa535f2f34e
