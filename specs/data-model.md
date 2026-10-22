@@ -30,7 +30,7 @@ Admins add objects and fields at run time; the API, views, search, import and au
 
 ## Decisions
 
-- `snake_case` names (the source used camelCase) to match other SpecHub specs.
+- `snake_case` names (the source used camelCase) to match other Specfork specs.
 - Delete only after deactivation, a safety step the source didn't have.
 - Enabling `unique` reports the duplicates instead of failing the migration.
 - No limit on object or field count: none was found in the source.

@@ -1,12 +1,12 @@
 ---
-spechub: 1
-name: "@spechub/crm"
+specfork: 1
+name: "@specfork/crm"
 summary: Customizable CRM with companies, people, deals, custom objects, views, notes, tasks, import, workflows and mail sync.
 license: CC-BY-4.0
 requires:
-  "@spechub/auth": "^0.1.1"
-  "@spechub/teams": "^0.1.1"
-  "@spechub/webhooks": "^0.1.1"
+  "@specfork/auth": "^0.3.0"
+  "@specfork/teams": "^0.3.0"
+  "@specfork/webhooks": "^0.3.0"
 derived_from:
   repo: https://github.com/twentyhq/twenty
   commit: 9044bdd7d2ac023e973b292a3b883fa535f2f34e
@@ -39,5 +39,5 @@ Not affiliated with or endorsed by Twenty.com, PBC. The name is used only to cre
 | [workflows.md](specs/workflows.md) | WF | Triggers, steps, versions, runs, limits |
 | [mail.md](specs/mail.md) | MAIL | Email and calendar sync, contact creation, blocklist, visibility |
 
-A workspace is a team (`@spechub/teams`); all data belongs to exactly one workspace.
+A workspace is a team (`@specfork/teams`); all data belongs to exactly one workspace.
 All times are stored in UTC; API names are `snake_case`.
