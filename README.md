@@ -3,6 +3,7 @@ specfork: 1
 name: "@specfork/crm"
 summary: Customizable CRM with companies, people, deals, custom objects, views, notes, tasks, import, workflows and mail sync.
 license: CC-BY-4.0
+tags: [saas, sales]
 requires:
   "@specfork/auth": "^0.3.0"
   "@specfork/teams": "^0.3.0"
